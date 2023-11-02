@@ -1,11 +1,12 @@
 import React from 'react';
-import Map from '../components/map';
+import Map from '../components/map/map';
+import TrailOverview from '../components/trail-overview/trail-overview';
 
 const Home = () =>{
   return (
     <div>
       <div>
-        <Map />
+        <TrailOverview />
       </div>
     </div>
   );
